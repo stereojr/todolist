@@ -1,0 +1,35 @@
+p{
+	margin:0px;
+	padding: 0px
+}
+.error
+{
+	color:red;
+	font-style: normal;
+	font-size: 11px;
+}
+
+.sukses
+{
+	display: none;
+	color:red;
+	font-style: normal;
+	font-size: 11px
+}
+
+#todo-form
+{
+	padding: 10px;
+}
+
+#loadingBox
+{
+	display: none;
+}
+
+#loadingBox > img
+{
+	border-radius: 50px;
+	display: block;
+	width:200px !important;
+}
