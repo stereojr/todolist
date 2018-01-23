@@ -21,7 +21,7 @@ class ListData extends Controller
     	}
     	else
     	{
-    		$todos  = TDM::all()->orderBy('id', 'desc')->get();
+    		$todos  = TDM::orderBy('id', 'desc')->get();
     	}
 
     	$result = array('data'=>$this->generate_data($todos));
